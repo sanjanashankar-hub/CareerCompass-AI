@@ -26,6 +26,27 @@ padding: 30px; border-radius: 15px; color: white; text-align: center;">
 <p style="font-size: 18px;">Discover your strengths, explore career paths, and build your future.</p>
 </div>
 """, unsafe_allow_html=True)
+
+st.markdown("""
+<div style="display: flex; gap: 15px; margin-top: 20px;">
+
+<div style="background: white; padding: 20px; border-radius: 15px; border: 1px solid #E5E7EB; flex: 1;">
+<h3 style="color: #7C3AED;">🔎 Explore Careers</h3>
+<p style="color: #475569;">Discover career paths that match your interests and skills.</p>
+</div>
+
+<div style="background: white; padding: 20px; border-radius: 15px; border: 1px solid #E5E7EB; flex: 1;">
+<h3 style="color: #7C3AED;">🧠 Assess Your Skills</h3>
+<p style="color: #475569;">Understand your strengths and identify skills to improve.</p>
+</div>
+
+<div style="background: white; padding: 20px; border-radius: 15px; border: 1px solid #E5E7EB; flex: 1;">
+<h3 style="color: #7C3AED;">🗺️ Build Your Roadmap</h3>
+<p style="color: #475569;">Create a step-by-step plan for your future career.</p>
+</div>
+
+</div>
+""", unsafe_allow_html=True)
 st.title("🎓 AI Career Guidance")
 st.write("Find career options based on your interests and skills.")
 
