@@ -10,7 +10,7 @@ if "guidance_done" not in st.session_state:
 from database import save_result
 import pandas as pd
 
-career_data = pd.read_csv("data/careers.csv")
+career_data = pd.read_csv("careers.csv")
 
 st.set_page_config(
 
