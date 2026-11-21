@@ -19,6 +19,13 @@ st.set_page_config(
     layout="centered"
 )
 
+st.markdown("""
+<div style="background: linear-gradient(135deg, #7C3AED, #4F46E5);
+padding: 30px; border-radius: 15px; color: white; text-align: center;">
+<h1 style="color: white;">Welcome to CareerCompass AI 🚀</h1>
+<p style="font-size: 18px;">Discover your strengths, explore career paths, and build your future.</p>
+</div>
+""", unsafe_allow_html=True)
 st.title("🎓 AI Career Guidance")
 st.write("Find career options based on your interests and skills.")
 
