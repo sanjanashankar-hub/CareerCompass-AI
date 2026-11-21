@@ -535,5 +535,24 @@ if st.button("📥 Generate Career Report"):
             mime="application/pdf"
         )
 
+st.divider()
+
+st.subheader("💡 Career FAQs")
+
+with st.expander("Which IT career is best for beginners?"):
+    st.write("IT Support, Web Development, and Cybersecurity are good starting options depending on your interests and skills.")
+
+with st.expander("Do I need coding skills for every IT career?"):
+    st.write("No. IT Support, Business Analysis, and some Cybersecurity roles can begin with basic coding or no coding, depending on the role.")
+
+with st.expander("How can I improve my career skills?"):
+    st.write("Practice regularly, complete online courses, build projects, and gain internship or practical experience.")
+
+with st.expander("Can I get an IT job after BCA?"):
+    st.write("Yes. BCA graduates can apply for entry-level IT roles, internships, technical support, testing, and other suitable positions.")
+
+with st.expander("What should I learn as a fresher?"):
+    st.write("Start with communication, computer fundamentals, Excel, SQL, Python basics, and skills related to your chosen career.")
+
    
     
